@@ -1,0 +1,37 @@
+{
+  "title": "proyectofactores",
+  "date": "28/02/23",
+  "description": {
+    "es": ""
+  },
+  "license": {
+    "es": "Esta obra está bajo una licencia de Creative Commons <a href=\"https://creativecommons.org/licenses/by-nc-sa/4.0\">BY-NC-SA<\/a>"
+  },
+  "meta_langs": [
+    "es"
+  ],
+  "mainFile": "proyectofactores.jclic",
+  "cover": "project-cover.jpg",
+  "thumbnail": "project-thumb.jpg",
+  "activities": 1,
+  "mediaFiles": 11,
+  "totalSize": 302823,
+  "files": [
+    "adicion_sus.png",
+    "ax2.png",
+    "diferencia_cuad.png",
+    "factor_comun.png",
+    "favicon.ico",
+    "fondo.jpg",
+    "icon-192.png",
+    "icon-72.png",
+    "imsmanifest.xml",
+    "index.html",
+    "project-cover.jpg",
+    "project-thumb.jpg",
+    "project.json",
+    "proyectofactores.jclic",
+    "proyectofactores.jclic.js",
+    "trinomio_perfecto.png"
+  ]
+}

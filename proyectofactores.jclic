@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<JClicProject name="proyectofactores" version="0.1.3">
+ <settings>
+  <title>proyectofactores</title>
+  <revision description="created" date="2/28/23" />
+  <descriptors />
+  <meta_langs>es</meta_langs>
+  <descriptions>
+   <description language="es" />
+  </descriptions>
+  <license type="by-nc-sa" url="https://creativecommons.org/licenses/by-nc-sa/4.0" />
+ </settings>
+ <sequence>
+  <item id="start" name="Casos_Factoreo" />
+ </sequence>
+ <activities>
+  <activity class="@associations.SimpleAssociation" name="Casos_Factoreo" code="">
+   <description>
+    <p>Relacione cada imagen con el caso de factoreo que corresponda</p>
+   </description>
+   <messages>
+    <cell type="initial">
+     <style transparent="true">
+      <font family="Zilla Slab Medium" size="20" bold="true" />
+     </style>
+     <p>RELACIONE CADA IMAGEN CON EL CASO DE FACTOREO QUE CORRESPONDA</p>
+    </cell>
+    <cell type="final">
+     <style transparent="true">
+      <font family="Zilla Slab Medium" size="22" />
+     </style>
+     <p>REFUERZE SUS CONOCIMIENTOS</p>
+    </cell>
+    <cell type="finalError">
+     <style transparent="true">
+      <font family="Zilla Slab Medium" size="22" bold="true" />
+     </style>
+     <p>CONTINUE INTENTANDO</p>
+    </cell>
+   </messages>
+   <settings margin="8" maxTime="60" countDownTime="true" maxActions="4" countDownActions="true" report="true" reportActions="false">
+    <container bgColor="0xC0C0C0">
+     <image name="FONDO.jpg" tiled="true" />
+     <counters time="true" actions="true" score="true" />
+    </container>
+    <window bgColor="0xC0C0C0" border="true" />
+    <skin file="@orange.xml" />
+   </settings>
+   <cells rows="5" cols="1" cellWidth="161.0" cellHeight="85.0" border="true" id="primary">
+    <style />
+    <shaper class="@Rectangular" cols="1" rows="5" />
+    <cell border="true" image="Factor_Comun.png">
+     <style>
+      <font family="Zilla Slab Medium" size="22" bold="true" />
+      <color background="0xFFFFFF" inactive="0x000000" />
+     </style>
+    </cell>
+    <cell border="true" image="Diferencia_cuad.png">
+     <style>
+      <font family="Zilla Slab Medium" size="22" bold="true" />
+      <color background="0xFFFFFF" inactive="0x000000" />
+     </style>
+    </cell>
+    <cell border="true" image="Trinomio_perfecto.png">
+     <style>
+      <font family="Zilla Slab Medium" size="22" bold="true" />
+      <color background="0xFFFFFF" inactive="0x000000" />
+     </style>
+    </cell>
+    <cell border="true" image="Adicion_sus.png">
+     <style>
+      <font family="Zilla Slab Medium" size="22" bold="true" />
+      <color background="0xFFFFFF" />
+     </style>
+    </cell>
+    <cell border="true" image="ax2.png">
+     <style>
+      <font family="Zilla Slab Medium" size="22" bold="true" />
+      <color background="0xFFFFFF" />
+     </style>
+    </cell>
+   </cells>
+   <cells rows="5" cols="1" cellWidth="264.0" cellHeight="85.0" border="true" id="secondary">
+    <style />
+    <shaper class="@Rectangular" cols="1" rows="5" />
+    <cell border="true">
+     <style>
+      <font family="Zilla Slab Medium" size="22" bold="true" />
+      <color background="0xFFFFFF" />
+     </style>
+     <p>Este es el caso de factorización que consiste en buscar un factor común y dividir todo por ese factor</p>
+    </cell>
+    <cell border="true">
+     <style>
+      <font family="Zilla Slab Medium" size="22" bold="true" />
+      <color background="0xFFFFFF" />
+     </style>
+     <p>Se identifica por tener dos términos elevados al cuadrado, unidos por el signo menos.</p>
+    </cell>
+    <cell border="true">
+     <style>
+      <font family="Zilla Slab Medium" size="22" bold="true" />
+      <color background="0xFFFFFF" />
+     </style>
+     <p>Si se identifica por tener tres términos, de los cuales dos tienen raíces cuadradas exactas, y el restante equivale al doble producto de las raíces del primero por el segundo.</p>
+    </cell>
+    <cell border="true">
+     <style>
+      <font family="Zilla Slab Medium" size="22" bold="true" />
+      <color background="0xFFFFFF" />
+     </style>
+     <p>Se identifica por tener tres términos, dos de ellos son cuadrados perfectos, pero el restante hay que completarlo mediante una suma para que sea el doble producto de las dos raíces</p>
+    </cell>
+    <cell border="true">
+     <style>
+      <font family="Zilla Slab Medium" size="22" bold="true" />
+      <color background="0xFFFFFF" />
+     </style>
+     <p>Se identifica por tener tres términos, hay un literal con exponente al cuadrado y uno de ellos es el término independiente.</p>
+    </cell>
+   </cells>
+   <scramble times="31" primary="true" secondary="true" />
+   <layout position="AB" />
+  </activity>
+ </activities>
+ <mediaBag>
+  <media name="FONDO.jpg" file="fondo.jpg" />
+  <media name="Adicion_sus.png" file="adicion_sus.png" />
+  <media name="ax2.png" file="ax2.png" />
+  <media name="Diferencia_cuad.png" file="diferencia_cuad.png" />
+  <media name="Factor_Comun.png" file="factor_comun.png" />
+  <media name="Trinomio_perfecto.png" file="trinomio_perfecto.png" />
+ </mediaBag>
+</JClicProject>
+
